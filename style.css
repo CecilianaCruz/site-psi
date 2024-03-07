@@ -29,7 +29,7 @@ h1{
 }
 
 .boxterap{
-    height: 170px;
+    height: 180px;
     width: 170px;
     background-color: rgb(65, 128, 128);
     margin-left: 20px;
@@ -180,7 +180,15 @@ h3{
     .boxterap{
         height: 160px;
         width: 160px;
-}
+}   
+    .terapiaporassinatura{
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card{
+        display: block;
+    }
 
 
 }
