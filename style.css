@@ -69,7 +69,6 @@ h2{
 
 .terapiaporassinatura{
     background-color: rgb(65, 128, 128);
-    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,6 +84,7 @@ h3{
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-top: 20px;
 }
 
 .título{
@@ -137,6 +137,12 @@ h3{
     margin: auto;
 }
 
+.card:hover{
+    border-color:rgb(37, 74, 145);
+    border-radius: 15px;
+}
+
+
 @media screen and (max-width:1020px){
     .boxone{
         display:block;
@@ -188,6 +194,7 @@ h3{
         display: block;
         justify-content: center;
         flex-direction: column;
+        margin-top: 30px;
     }
     .card{
         display: block;
@@ -195,6 +202,7 @@ h3{
 
     .título h3{
         margin-left: none;
+        font-size: 50px;
     }
 
 
