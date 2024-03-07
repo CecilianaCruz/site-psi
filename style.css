@@ -163,6 +163,7 @@ h3{
         align-items: center;
         justify-content: center;
         width: 100%;
+        margin-left: none;
     }
 
     .boxtwo{
