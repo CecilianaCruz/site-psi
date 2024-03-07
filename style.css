@@ -45,11 +45,12 @@ h1{
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-left: 30px;
 }
 
 .boxtwo{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 span{
@@ -162,8 +163,6 @@ h3{
         display: block;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        margin-left: none;
     }
 
     .boxtwo{
