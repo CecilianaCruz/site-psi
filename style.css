@@ -88,6 +88,12 @@ h3{
 
 }
 
+.card textt{
+    text-align: none;
+    align-items: none;
+    justify-content: none;
+}
+
 .título{
     width: 100%;
     background-color: rgb(65, 128, 128);
@@ -119,7 +125,7 @@ h3{
     font-size: 30px;
 }
 
-.card strong{
+.preço strong{
     font-size: 60px;
 }
 
