@@ -27,4 +27,11 @@ revelar.reveal('.texttre',
 {
     duration:1000,
     distance: '90px',
+    delay:150
+});
+
+revelar.reveal('.card', 
+{
+    duration:1000,
+    distance: '100px',
 });
