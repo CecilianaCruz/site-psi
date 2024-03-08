@@ -241,6 +241,10 @@ h3{
     .partetwo{
         display: block;
     }
+
+    .partetwo img{
+        height: 300px;
+    }
 }
 
 
