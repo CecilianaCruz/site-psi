@@ -3,8 +3,9 @@ window.revelar = ScrollReveal({reset:true});
 revelar.reveal('.imagem', 
 {
     duration:2000,
-    distance: '90px',
-    delay: 500
+    distance: '150px',
+    delay: 500,
+    origin: 'right'
 });
 
 
