@@ -7,6 +7,7 @@ revelar.reveal('.imagem',
     delay: 500
 });
 
+
 revelar.reveal('.text', 
 {
     duration:2500,
