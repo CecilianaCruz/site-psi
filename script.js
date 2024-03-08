@@ -14,3 +14,17 @@ revelar.reveal('.text',
     duration:2500,
     distance: '90px',
 });
+
+
+
+revelar.reveal('.partetwo', 
+{
+    duration:1000,
+    distance: '90px',
+});
+
+revelar.reveal('.texttre', 
+{
+    duration:1000,
+    distance: '90px',
+});

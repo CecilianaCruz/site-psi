@@ -255,6 +255,6 @@ h3{
 }
 
 
-.imagem, .text{
+.imagem, .text, .partetwo, .texttre{
     visibility: hidden;
 }
