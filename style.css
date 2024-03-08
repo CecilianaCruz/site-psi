@@ -149,6 +149,10 @@ h3{
     border-radius: 15px;
 }
 
+.atendimento p{
+    margin-left: 30px;
+}
+
 
 @media screen and (max-width:1020px){
     .boxone{
@@ -200,7 +204,6 @@ h3{
     .terapiaporassinatura{
         display: block;
         justify-content: center;
-        flex-direction: column;
         margin-top: 30px;
     }
     .card{
@@ -208,9 +211,16 @@ h3{
     }
 
     .título h3{
-        margin-left: 10px;
+        margin-left: none;
         font-size: 50px;
     }
 
+    .card{
+        width: 300px;
+    }
+
+    .atendimento{
+        text-align: center;
+    }
 
 }
