@@ -109,6 +109,7 @@ h3{
     justify-content: none;
 }
 
+
 .título{
     width: 100%;
     background-color: rgb(65, 128, 128);
@@ -130,7 +131,10 @@ h3{
     margin-left: auto;
 }
 
-
+.space{
+    height: 20px;
+    margin-bottom: 20px;
+}
 
 .atendimento strong{
     color:  rgb(65, 128, 128);
@@ -246,6 +250,8 @@ h3{
     .partetwo img{
         height: 300px;
     }
+    
+
 }
 
 
