@@ -1,8 +1,14 @@
-window.revelar = ScrollReveal({ reset: true});
+window.revelar = ScrollReveal({reset:true});
 
-revelar.reveal('imagem', 
+revelar.reveal('.imagem', 
 {
-    duration:1000,
+    duration:2000,
     distance: '90px'
 });
 
+revelar.reveal('.text', 
+{
+    duration:2500,
+    distance: '90px',
+    delay: 500
+});

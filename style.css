@@ -255,3 +255,6 @@ h3{
 }
 
 
+.imagem, .text{
+    visibility: hidden;
+}
