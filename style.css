@@ -64,12 +64,13 @@ span{
     margin: auto;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .partetwo img{
     height: 450px;
     border-radius: 10%;
-    margin-right: 60px;
+    margin-right: 90px;
 }
 
 h2{
@@ -241,3 +242,5 @@ h3{
         display: block;
     }
 }
+
+
