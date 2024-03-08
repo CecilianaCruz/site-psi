@@ -26,8 +26,7 @@ revelar.reveal('.partetwo',
 revelar.reveal('.texttre', 
 {
     duration:1000,
-    distance: '90px',
-    delay:150
+    distance: '100px',
 });
 
 revelar.reveal('.card', 
