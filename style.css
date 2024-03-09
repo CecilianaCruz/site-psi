@@ -205,6 +205,20 @@ h3{
     background-color: rgb(65, 128, 128);
 }
 
+.card h5{
+    align-items: center; text-align: center;
+}
+
+.card p{
+    align-items: center;
+    text-align: center;
+}
+
+.card a{
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+}
 
 @media screen and (max-width:1020px){
     .boxone{
