@@ -1,8 +1,36 @@
-window.revelar = ScrollReveal({ reset: true});
+window.revelar = ScrollReveal({reset:true});
 
-revelar.reveal('imagem', 
+revelar.reveal('.imagem', 
 {
-    duration:1000,
-    distance: '90px'
+    duration:2000,
+    distance: '150px',
+    delay: 500,
+    origin: 'right'
 });
 
+
+revelar.reveal('.text', 
+{
+    duration:2500,
+    distance: '90px',
+});
+
+
+
+revelar.reveal('.partetwo', 
+{
+    duration:1000,
+    distance: '90px',
+});
+
+revelar.reveal('.texttre', 
+{
+    duration:1000,
+    distance: '100px',
+});
+
+revelar.reveal('.card', 
+{
+    duration:1000,
+    distance: '100px',
+});
