@@ -34,3 +34,15 @@ revelar.reveal('.card',
     duration:1000,
     distance: '100px',
 });
+
+revelar.reveal('.aboutimg', 
+{
+    duration:1000,
+    distance: '100px',
+});
+
+revelar.reveal('.abouttext', 
+{
+    duration:1000,
+    distance: '100px',
+});

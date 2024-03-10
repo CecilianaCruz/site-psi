@@ -25,8 +25,10 @@ h1{
     color:  rgb(65, 128, 128);
     font-size: 50px;
     display: flax;
-    margin-left: 40px;
+    margin-left: 20px;
 }
+
+
 
 .boxterap{
     height: 180px;
@@ -65,6 +67,7 @@ span{
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
@@ -76,6 +79,7 @@ span{
     height: 450px;
     border-radius: 10%;
     margin-right: 90px;
+
 }
 
 h2{
@@ -220,6 +224,62 @@ h3{
     display: flex;
 }
 
+.depoimentos{
+    color:rgb(65, 128, 128);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about{
+    margin-top: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.about p{
+    max-width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.tituloo{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+
+}
+
+.tituloo h3{
+    color: rgb(65, 128, 128);
+    font-size: 45px;
+}
+
+
+.cardd{
+    margin: 20px;
+}
+
+.pagonecard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.about img{
+    height: 400px;
+    margin-left: 20px;
+}
+
+
 @media screen and (max-width:1020px){
     .boxone{
         display:block;
@@ -284,24 +344,41 @@ h3{
 
     .atendimento{
         text-align: center;
+        margin-left: none;
+        margin: auto;
     }
     
+    .atendimento p{
+        margin-left: none;
+    }
+
     .partetwo{
         display: block;
         margin-top: 30px;
         text-align: center;
         justify-content: center;
+        align-items: center;
+        margin: auto;
     }
 
     .partetwo img{
-        height: 300px;
-        
+        height: 300px; 
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
     
-
+    .about{
+        display: block;
+        max-width: 400px;
+        text-align: center;
+    }
+    .botaotwo button{
+        width: 400px;
+    }
 }
 
 
-.imagem, .text, .partetwo, .card{
+.imagem, .text, .partetwo, .card .aboutimg .abouttext{
     visibility: hidden;
 }
