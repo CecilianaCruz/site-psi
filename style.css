@@ -1,15 +1,17 @@
 button{
     margin-top: 15px;
     background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    height: 38px;
+    border-radius: 10px;
+    height: 45px;
     color: rgb(65, 128, 128);
+    border: none;
+    transition: transform 1s;
+
 }
 
 button:hover{
     color: black;
-    height: 40px;
+    height: 47px;
 }
 
 a:hover{
@@ -149,6 +151,11 @@ h3{
     display: flex;
 }
 
+.botaoone{
+    align-items: center; 
+    justify-content: center
+
+}
 
 .título button{
     height: 60px;
@@ -289,6 +296,22 @@ h3{
 .pagonecard img:hover{
     transform: scale(1.2);
 }
+
+.botaoone button{
+    position: relative;
+    animation: flutuar 1s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 20px
+    }
+}
+
+
 
 @media screen and (max-width:1020px){
     .boxone{
