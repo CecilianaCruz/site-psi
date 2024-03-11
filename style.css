@@ -84,6 +84,14 @@ span{
 
 }
 
+.botaotwo a{
+    color: rgb(65, 128, 128);
+}
+
+.botaotwo a:hover{
+    color: black;
+}
+
 h2{
     color: black;
     font-size: 50px;
@@ -129,14 +137,12 @@ h3{
 .título{
     width: 100%;
     background-color: rgb(65, 128, 128);
-    margin-top: 50px;
     }
 
 .título h3{
-    margin-top: 70px;
     margin-left: 30px;
     font-size: 60px;
-    color: black
+    color: white
 }
 
 .título p{
@@ -154,6 +160,7 @@ h3{
     justify-content: center;
     align-items: center;
     display: flex;
+    color: rgb(65, 128, 128);
 }
 
 .botaoone{
