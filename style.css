@@ -299,7 +299,7 @@ h3{
 
 .botaoone button{
     position: relative;
-    animation: flutuar 0.40s ease-in-out infinite alternate;
+    animation: flutuar 0.35s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar{
