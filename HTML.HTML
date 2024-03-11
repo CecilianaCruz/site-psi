@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botão em Movimento</title>
+  <style>
+    #meuBotao {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+
+<button id="meuBotao" onclick="iniciarMovimento()">Clique em Mim</button>
+
+<script>
+  function iniciarMovimento() {
+    var botao = document.getElementById('meuBotao');
+    var posicaoInicial = 0;
+
+    function moverBotao() {
+      posicaoInicial += 5; // Altere a quantidade de pixels que o botão se moverá a cada intervalo de tempo
+
+      // Defina a nova posição do botão
+      botao.style.left = posicaoInicial + 'px';
+
+      // Se você quiser que o botão volte ao início quando atingir uma certa posição, pode adicionar a seguinte verificação
+      if (posicaoInicial >= window.innerWidth - botao.offsetWidth) {
+        posicaoInicial = 0;
+      }
+    }
+
+    // Inicie o intervalo para chamar a função de movimento a cada 50 milissegundos (ou o valor que você preferir)
+    setInterval(moverBotao, 50);
+  }
+</script>
+
+</body>
+</html>

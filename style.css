@@ -279,6 +279,16 @@ h3{
     margin-left: 20px;
 }
 
+.pagonecard img{
+    height: 176px;
+    width: 305px;
+    transition: transform 1s;
+}
+
+
+.pagonecard img:hover{
+    transform: scale(1.2);
+}
 
 @media screen and (max-width:1020px){
     .boxone{
@@ -375,6 +385,9 @@ h3{
     }
     .botaotwo button{
         width: 400px;
+    }
+    .aboutimg img{
+        height: 200px;
     }
 }
 
