@@ -39,6 +39,7 @@ h1{
     color: white;
     margin: auto;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 .boxbox{
@@ -376,6 +377,7 @@ h3{
     .boxterap{
         height: 170px;
         width: 160px;
+        margin-left: 5%;
     }   
     .terapiaporassinatura{
         display: block;
@@ -417,6 +419,11 @@ h3{
         
     }
 
+    .about p{
+        max-width: 300px;
+        margin: auto;
+    }
+
     .imgatend{
         display: flex;
         align-items: center;
@@ -450,7 +457,7 @@ h3{
         width: 400px;
     }
     .aboutimg img{
-        height: 200px;
+        height: 300px;
     }
     .título button{
         width: 90%;
