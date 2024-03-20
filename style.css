@@ -218,11 +218,20 @@ h3{
     margin-top: 30px;
 }
 
+.divcereb{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
 .boxone{
     background-color: rgb(65, 128, 128);
     align-items: center; 
     display: flex; 
     margin: auto;
+    margin-top: 30px;
 }
 
 .card:hover{
